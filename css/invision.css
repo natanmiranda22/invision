@@ -1,0 +1,170 @@
+/* *********************
+
+Invision Zappts test
+Created with love by Natan (natanmiranda@yahoo.com.br)
+
+********************* */
+
+
+/**** Import Fonts and plugins ****/
+  /** PS: Nunito Sans replacing the Avenir paid font **/
+@import url('https://fonts.googleapis.com/css?family=Lato|Muli|Nunito+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css');
+@import url('responsive.css');
+
+
+
+/**** Reset CSS ****/
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 500; 
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+  color: #707070;
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  outline: none;
+  font-weight: 500; 
+}
+
+img {
+  max-width: 100%;
+  height: auto; 
+}
+
+/**** Colors, sizes and spacing ****/
+.light-gray {
+  color: #00000029;
+}
+.gray {
+  color: #707070;
+}
+.bg-gray {
+  background-color: #707070;
+  color: #fff;
+}
+.turquoise {
+  color: #A9C5BA;
+}
+.bg-turquoise {
+  background-color: #A9C5BA;
+  color: #fff;
+}
+
+
+/**** Default and custom classes ****/
+.full-height {
+  height: 100%;
+}
+.section-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/**** Invision stylesheet ****/
+/* half section */
+.invision-welcome-grid .section {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  max-width: 50%;
+}
+
+/* logo */
+.invision-welcome-grid .section .logo {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  color: #000;
+}
+
+/* form */
+.invision-welcome-grid .section .invision-form label {
+  font-size: 14px;
+}
+.invision-welcome-grid .section .invision-form .form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 3px solid #00000029;
+}
+.invision-welcome-grid .section .invision-form .btn {
+  border-radius: 100px;
+}
+ .invision-welcome-grid .section .invision-form .login-or {
+   position: relative;
+   color: #aaa;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ .invision-welcome-grid .section .invision-form .span-or {
+   display: block;
+   position: absolute;
+   left: 50%;
+   top: -2px;
+   margin-left: -25px;
+   background-color: #fff;
+   width: 50px;
+   text-align: center;
+ }
+ .invision-welcome-grid .section .invision-form .hr-or {
+   height: 1px;
+   margin-top: 0px !important;
+   margin-bottom: 0px !important;
+ }
+ .invision-welcome-grid .section .invision-form .create-account a {
+  color: #A9C5BA;
+  text-decoration: underline;
+ }
+
+  /* google sign in button */
+.btn-google-login .btn {
+    background-color: #fff !important;
+    box-shadow: 0px 3px 6px #00000029;
+    font-weight: 400;
+    height: 45px;
+}
+
+/**** Custom plugins styles ****/
+.slick-dots li button:before {
+  color: #fff;
+  opacity: 0.55;
+
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 1;
+  content: '-';
+  font-size: 48px;
+  line-height: 0;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}

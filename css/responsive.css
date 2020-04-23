@@ -1,0 +1,23 @@
+/* *********************
+
+Invision Zappts test
+Created with love by Natan (natanmiranda@yahoo.com.br)
+
+********************* */
+
+@media (max-width: 576px) { 
+	.invision-welcome-grid .section {
+		max-width: 100% !important;
+	}
+	.invision-welcome-grid .section.section-left {
+		display: none !important;
+	}
+}
+
+
+@media (min-width: 768px) { 
+	.invision-form {
+		max-width: 435px;
+		margin: 0 auto;
+	}
+}
